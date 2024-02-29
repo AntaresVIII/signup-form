@@ -1,0 +1,1 @@
+Basic Sign-Up Form project as part of the Javascript path from The Odin Project curriulum.
