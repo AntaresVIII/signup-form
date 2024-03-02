@@ -1,4 +1,38 @@
-.content {
-    display: grid;
-    
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
 }
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    gap: 0px 0px;
+    height: 100vh;
+    width: 100vh;
+    grid-template-areas:
+      "logo" "content"
+  } 
+.logo {
+    grid-area: logo;
+    font-family: Norse-Bold;
+}  
+.logo > img {
+    min-width: 10px;
+    max-width: 7.5%;
+    margin-top: 2%;
+}
+.content {
+    grid-area: content;
+    background-color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+} 
