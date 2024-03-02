@@ -16,11 +16,43 @@
     <body>
         <div class="container">
             <div class="logo">
-                <img src="odin-lined.png">
+                <div class="logo-container"><img src="odin-lined.png"><p>ODIN</p></div>
                 <p>Photo by <a href="https://unsplash.com/@quicksand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Johannes Hofmann</a> on <a href="https://unsplash.com/photos/aerial-photography-of-body-of-water-between-pine-trees-h9DGSxPXTIk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
             </div>
             <div class="content">
-                <p>aaaa</p>
+                <div class="content-top">
+                    <p><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</b></p>
+                    <p><b>You <i>know</i> you want to.</b></p>
+                </div>
+                <div class="content-form">
+                    <h1>Let's do this!</h1>
+                    <form id="form">
+                        <div id="form-inputs">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="field" id="first-name" name="name" required>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="field" id="last-name" name="last name" required>
+                        </div>
+                        <div id="form-inputs">
+                            <label for="email">E-MAIL</label>
+                            <input type="email" id="email" name="e-mail" required>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </div>
+                        <div id="form-inputs">    
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                            <label for="conf-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="conf-password" name="password" required>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="content-bottom">
+                    <button type="submit" form="form"><b>Create Account</b></button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
             </div>
           </div>
         <script src="" async defer></script>
