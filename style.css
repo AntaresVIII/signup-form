@@ -64,11 +64,16 @@ body {
     color: white;
     text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 10px #000000;
 }
+.left {
+    padding: 12px;
+    margin-left: 10px;
+    gap: 10px;
+}
 .content {
     font-family:'Courier New', Courier, monospace;
     display: grid; 
     grid-template-columns: 1fr; 
-    grid-template-rows: 1fr 1.5fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
       "content-top"
@@ -90,15 +95,22 @@ body {
   .content-bottom {
     grid-area: content-bottom;
     margin-top: 20px;
+    ;
 }
-label {
-    float: top;
-    margin-left: 10px;
-}
-input {
-    float: bottom;
-}
-.form-inputs {
+.form {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    
+}
+.title {
+    width: 100%;
+    font-size: 1em;
+    font-weight: 600;
+}
+.form-input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+
 }

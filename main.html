@@ -20,36 +20,42 @@
                 <p>Photo by <a href="https://unsplash.com/@quicksand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Johannes Hofmann</a> on <a href="https://unsplash.com/photos/aerial-photography-of-body-of-water-between-pine-trees-h9DGSxPXTIk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
             </div>
             <div class="content">
-                <div class="content-top">
+                <div class="content-top left">
                     <p><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</b></p>
                     <p><b>You <i>know</i> you want to.</b></p>
                 </div>
                 <div class="content-form">
-                    <h1>Let's do this!</h1>
-                    <form id="form">
-                        <div id="form-inputs">
-                            <label for="first-name">FIRST NAME</label>
-                            <input type="field" id="first-name" name="name" required>
-                            <label for="last-name">LAST NAME</label>
-                            <input type="field" id="last-name" name="last name" required>
+                    <form action="#">
+                        <div class="form left">
+                            <p class="title">Let's do this!</p>
+                            <div class="form-input">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="field" id="first-name" name="name" required>
+                            </div>
+                            <div class="form-input">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="field" id="last-name" name="last name" required>
+                            </div>
+                            <div class="form-input">
+                                <label for="email">E-MAIL</label>
+                                <input type="email" id="email" name="e-mail" required>
+                            </div>
+                            <div class="form-input">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            </div>
+                            <div class="form-input">    
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                            <div class="form-input">
+                                <label for="conf-password">CONFIRM PASSWORD</label>
+                                <input type="password" id="conf-password" name="password" required>
+                            </div>
                         </div>
-                        <div id="form-inputs">
-                            <label for="email">E-MAIL</label>
-                            <input type="email" id="email" name="e-mail" required>
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                        </div>
-                        <div id="form-inputs">    
-                            <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password" required>
-                            <label for="conf-password">CONFIRM PASSWORD</label>
-                            <input type="password" id="conf-password" name="password" required>
-                        </div>
-
-
                     </form>
                 </div>
-                <div class="content-bottom">
+                <div class="content-bottom left">
                     <button type="submit" form="form"><b>Create Account</b></button>
                     <p>Already have an account? <a href="#">Log in</a></p>
                 </div>
