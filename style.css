@@ -114,3 +114,31 @@ body {
     font-size: 0.7rem;
 
 }
+input {
+    border: solid #cacacc 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+input[type=password]:invalid {
+    border: solid red 1px;
+}
+
+input:focus {
+    border: solid rgb(37, 37, 133) 1px;
+    box-shadow: 5px 5px #bbbbbb;
+}
+button {
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    background-color: #596D48;
+    border: solid rgb(87, 87, 87) 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #bbbbbb;
+}
+button:active {
+    background-color: #2a3024;
+    box-shadow: 3px 3px #acacac;
+}
